@@ -1,0 +1,15 @@
+a{
+	text-decoration: none;
+}
+#wrapper{
+	border: 1px solid #ccc;
+}
+.nav{
+	border: 1px solid #000;
+}
+.nav li{
+	display: inline-block;
+	color: #ccc;
+	border-right: 1px solid #000;
+	padding: 1rem;
+}
