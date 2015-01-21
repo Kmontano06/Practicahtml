@@ -3,6 +3,15 @@
 <head>
 	<title>Practica1-HTML</title>
 	<meta charset="utf-8">
+	<style>
+		table, th, td{
+    		border: 1px solid #000;
+    		border-collapse: collapse;
+    	}
+    	th,td{
+    		padding: 1rem;
+    	}
+    </style>
 </head>
 <body>
     <div id="wrapper">
@@ -85,6 +94,70 @@
                 	<p>Berners Lee dirige desde 2007 el World Wide Web Consortium (W3C), el cual desarrolla y mantiene esos y otros estándares que permiten a los ordenadores de la Web almacenar y comunicar efectivamente diferentes formas de información.</p>
                 </div><!--//estandar-->
 			</div><!--/articulo-->
+			<form>
+				<fieldset>
+					<legend>Datos</legend>
+					<input type="text" name="nombre" value="" placeholder="Nombre"></br>
+					<input type="email" name="email" value="" placeholder="E-mail"></br>
+					<input type="text" name="empresa" value="" placeholder="Empresa"></br>
+					<h4>Tipo de solicitud</h4>
+					<input type="radio" name="solicitud" value="Soporte">Soporte
+					<input type="radio" name="solicitud" value="Contacto General">Contacto General</br>
+					<select>
+						<option>España</option>
+						<option>Inglaterra</option>
+					    <option>Francia</option>
+					    <option>Estados Unidos</option>
+					    <option>Brasil</option>
+					</select></br>
+					<textarea rows="4" cols="50" placeholder="Su mensaje"></textarea></br>
+					<input type="submit" name="enviar" value="Enviar">
+				</fieldset>
+			</form>	
+			<table>
+				<tr>
+					<th>Nombre</th>
+					<th>Apellido</th>
+					<th>Edad</th>
+					<th>Nacionalidad</th>
+					<th>E-mail</th>
+				</tr>
+				<tr>
+					<td>Andrea</td>
+					<td>Sanchez</td>
+					<td>25 años</td>
+					<td>Chilena</td>
+					<td>andreas25@hotmail.com</td>
+				</tr>
+				<tr>
+					<td>Antonio</td>
+					<td>Mora</td>
+					<td>85 años</td>
+					<td>Brasileño</td>
+					<td>anmora@hotmail.com</td>
+				</tr>
+				<tr>
+					<td>Jimena</td>
+					<td>Perez</td>
+					<td>25 años</td>
+					<td>Costarricense</td>
+					<td>jperez25@hotmail.com</td>
+				</tr>
+				<tr>
+					<td>Karla</td>
+					<td>Gutierrez</td>
+					<td>18 años</td>
+					<td>EEUU</td>
+					<td>kgu18@hotmail.com</td>
+				</tr>
+				<tr>
+					<td>Miguel</td>
+					<td>Pereira</td>
+					<td>45 años</td>
+					<td>Frances</td>
+					<td>mpereira@hotmail.com</td>
+				</tr>
+			</table>
 		</div><!--/content-->
 	</div><!--wrapper-->
 </body>
